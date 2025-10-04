@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export default function Nav({
-  brand = "AdMetrics",
+  brand = "AdStack",
   rightLabel = "Campaigns",
   rightTo = "/",
   className = "",

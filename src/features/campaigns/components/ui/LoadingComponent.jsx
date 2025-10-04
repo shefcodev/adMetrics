@@ -1,4 +1,3 @@
-// src/components/ui/SkeletonCampaignCards.jsx
 import PropTypes from "prop-types";
 
 export default function LoadingComponent({ count = 6, className = "" }) {

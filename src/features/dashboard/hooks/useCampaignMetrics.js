@@ -14,7 +14,6 @@ export function useCampaignMetrics(cid, { pauseOnHidden = false } = {}) {
   const inflight = useRef(false);
   const cidRef = useRef(cid);
 
-  // reset when campaign changes
   useEffect(() => {
     cidRef.current = cid;
     numberRef.current = 0;

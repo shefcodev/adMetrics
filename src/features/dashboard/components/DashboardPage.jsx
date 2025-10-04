@@ -5,7 +5,7 @@ import { fetchCampaigns } from "../../campaigns/api.js";
 import { useCampaignMetrics } from "../hooks/useCampaignMetrics.js";
 import { ctr } from "../calc.js";
 import Tiles from "./Tiles/Tiles.jsx";
-import DashboardSkeleton from "../ui/DashboardSkeleton.jsx";
+import DashboardSkeleton from "./ui/DashboardSkeleton.jsx";
 
 export function DashboardPage() {
   const { cid } = useParams();

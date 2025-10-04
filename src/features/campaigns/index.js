@@ -1,2 +1,2 @@
-export { CampaignList } from "./components/CampaignList.jsx";
+export { CampaignListPage } from "./components/CampaignListPage.jsx";
 export { CampaignCard } from "./components/CampaignCard.jsx";

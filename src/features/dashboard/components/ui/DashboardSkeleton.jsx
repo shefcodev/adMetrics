@@ -1,4 +1,4 @@
-import MetricTile from "../components/Tiles/MetricTile";
+import MetricTile from "../Tiles/MetricTile";
 import {
   FiClock,
   FiEye,

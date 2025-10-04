@@ -30,7 +30,7 @@ export default function Sidebar({ items = defaultItems, className = "" }) {
             className="inline-block h-2 w-2 rounded-sm bg-blue-600"
             aria-hidden
           />
-          AdMosaic
+          AdStack
         </Link>
       </div>
 
