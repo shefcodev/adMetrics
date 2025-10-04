@@ -20,7 +20,6 @@ export default function Sidebar({ items = defaultItems, className = "" }) {
       ].join(" ")}
       style={{ width: "var(--sidebar-w, 240px)" }}
     >
-      {/* Brand */}
       <div className="px-4 pt-6">
         <Link
           to="/"

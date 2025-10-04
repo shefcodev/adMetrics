@@ -17,9 +17,15 @@ export default function Nav({
       role="banner"
     >
       <div className="mx-auto flex h-14 items-center gap-3 px-4">
-        <Link to="/" className="text-sm font-mono text-zinc-500">
-          {brand}
-          <span className="sr-only">Home</span>
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm font-mono text-zinc-500"
+        >
+          <span
+            className="inline-block h-2 w-2 rounded-sm bg-blue-600"
+            aria-hidden
+          />
+          AdStack
         </Link>
 
         <Link
