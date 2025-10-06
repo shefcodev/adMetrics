@@ -40,14 +40,14 @@ export default function DashboardSkeleton({ cards = 8, className = "" }) {
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-3 xl:grid-cols-4">
-        {tiles.map((t, i) => (
+        {tiles.map((tile, index) => (
           <MetricTile
-            key={i}
-            title={t.title}
+            key={index}
+            title={tile.title}
             value="—"
-            icon={t.icon}
-            accent={t.accent}
-            variant={t.variant}
+            icon={tile.icon}
+            accent={tile.accent}
+            variant={tile.variant}
             loading
           />
         ))}

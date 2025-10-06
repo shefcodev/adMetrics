@@ -1,6 +1,6 @@
-import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import { MdCampaign } from "react-icons/md";
+import PropTypes from "prop-types";
 
 export default function Sidebar({ items = defaultItems, className = "" }) {
   const linkBase =
@@ -33,7 +33,6 @@ export default function Sidebar({ items = defaultItems, className = "" }) {
         </Link>
       </div>
 
-      {/* Nav */}
       <nav className="px-4" aria-label="Primary">
         <ul className="space-y-2">
           {items.map(({ to, label, icon: Icon, end }, i) => (

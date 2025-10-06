@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export default function Nav({
   brand = "AdStack",
@@ -25,7 +25,7 @@ export default function Nav({
             className="inline-block h-2 w-2 rounded-sm bg-blue-600"
             aria-hidden
           />
-          AdStack
+          {brand}
         </Link>
 
         <Link

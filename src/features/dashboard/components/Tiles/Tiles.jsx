@@ -23,7 +23,6 @@ export default function Tiles({ totals, recent, number }) {
         value={formatNumber(totals.clicks)}
         icon={FiMousePointer}
       />
-      {/* ✅ CTR icon in the same top-right slot */}
       <MetricTile
         title="CTR"
         value={formatPercent(totals.ctr)}
@@ -35,7 +34,6 @@ export default function Tiles({ totals, recent, number }) {
         value={formatNumber(totals.users)}
         icon={FiUsers}
       />
-
       <MetricTile
         title="Current Number"
         value={formatNumber(number)}
@@ -53,7 +51,6 @@ export default function Tiles({ totals, recent, number }) {
         value={formatNumber(recent.clicks)}
         icon={FiMousePointer}
       />
-      {/* ✅ Most Recent CTR icon in the same top-right slot */}
       <MetricTile
         title="Most Recent CTR"
         value={formatPercent(recent.ctr)}

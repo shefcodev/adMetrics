@@ -50,8 +50,8 @@ export function useCampaignMetrics(cid, { pauseOnHidden = false } = {}) {
         setNumber(numberRef.current);
         setLastUpdated(new Date());
         setError(null);
-      } catch (e) {
-        if (cidRef.current === cid) setError(e);
+      } catch (error) {
+        if (cidRef.current === cid) setError(error);
       } finally {
         inflight.current = false;
         setIsFetching(false);
